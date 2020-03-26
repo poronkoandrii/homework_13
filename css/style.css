@@ -161,14 +161,26 @@
   top: 25px;
   background-image: url(../img/bug-icon.svg);
 }
+.our-services__list--shopping:hover::after {
+  background-image: url(../img/bug-icon-hov.svg);
+}
 .our-services__list--product::after {
   background-image: url(../img/plant-icon.svg);
+}
+.our-services__list--product:hover::after {
+  background-image: url(../img/plant-icon-hov.svg);
 }
 .our-services__list--delivery::after {
   background-image: url(../img/earth-icon.svg);
 }
+.our-services__list--delivery:hover::after {
+  background-image: url(../img/earth-icon-hov.svg);
+}
 .our-services__list--organaized::after {
   background-image: url(../img/carrot-icon.svg);
+}
+.our-services__list--organaized:hover::after {
+  background-image: url(../img/carrot-icon-hov.svg);
 }
 .our-services__list--link:hover,
 .our-services__list--link:hover::before {
@@ -402,7 +414,7 @@
 .blog__content--img-date-num {
   font-size: 32px;
   font-weight: bold;
-  color: #fff;
+  color: rgb(31, 105, 43);
 }
 .blog__content--img-date-mth {
   font-size: 21px;
@@ -501,6 +513,9 @@
   font-weight: bold;
   color: #fff;
   border-left: 4px solid transparent;
+}
+.form__input:focus:invalid {
+  border-left: 4px solid rgb(233, 42, 42);
 }
 .form__input::placeholder {
   font-weight: 300;
